@@ -1,0 +1,56 @@
+/* flex 两侧分列  ul li */
+.ui-flex-divide {
+  @include flex-divide;
+  > .ui-flex-divide-item {
+    flex: 1;
+  }
+  > .ui-flex-divide-item:last-of-type {
+    text-align: right;
+  }
+}
+
+/* flex 水平 靠右 */
+.ui-flex-end-center {
+  @include flex-row(flex-end, center);
+}
+
+/* flex 水平 靠左 */
+.ui-flex-start-center {
+  @include flex-row(flex-start, center);
+}
+
+/* flex 垂直 上中 */
+.ui-column-start-center {
+  @include flex-column(flex-start, center);
+}
+
+/* flex 垂直 上右 */
+.ui-column-start-end {
+  @include flex-column(flex-start, flex-end);
+}
+
+/* flex 垂直 靠中 */
+.ui-column-center-center {
+  @include flex-column(center, center);
+}
+
+.ui-column-center {
+  @include flex-column(center, center);
+}
+
+.ui-center {
+  @include flex-center;
+}
+
+.ui-flex-space-between {
+  @include flex-row(space-between, center);
+}
+
+.ui-flex-space-around {
+  @include flex-row(space-around, center);
+}
+
+.ui-ib {
+  display: inline-block;
+  vertical-align: middle;
+}

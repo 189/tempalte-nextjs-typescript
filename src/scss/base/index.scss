@@ -1,0 +1,22 @@
+@import "reset";
+@import "font";
+@import "text";
+@import "flex";
+@import "switch";
+
+.ui-scroll {
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #efeff4;
+    box-shadow: none;
+  }
+  &:hover {
+    &::-webkit-scrollbar-thumb {
+      background: #ccc;
+      box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+  }
+}

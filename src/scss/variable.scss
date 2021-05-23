@@ -1,0 +1,34 @@
+/* 基础颜色 */
+$primary-color: #00164e;
+$regular-color: #667394;
+$success-color: #57c78b;
+$warning-color: #fb984d;
+$highlight-color: #d63f3f;
+$danger-color: #d63f3f;
+$placeholder-color: #c0c4cc;
+$disabled-color: rgba(#000000, 0.18);
+
+/* 文字颜色 */
+$primary-txt-color: $primary-color;
+$regular-txt-color: $regular-color;
+$secondary-txt-color: #99a1b8;
+
+/* 边框颜色 */
+$border-base-color: #dadce3;
+
+/* 背景色 */
+$bg-color: #f5f6f9;
+
+/* 圆角 */
+$border-normal-radius: 4px;
+
+/* 标题 */
+$h1: 32px;
+
+$h2: 26px;
+$h3: 24px;
+$h4: 18px;
+
+$h5: 16px;
+$h6: 14px;
+$h7: 12px;

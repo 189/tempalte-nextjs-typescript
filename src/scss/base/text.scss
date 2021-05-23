@@ -1,0 +1,65 @@
+/* 基础文本 */
+h1 {
+  font-size: $h1;
+}
+h2 {
+  font-size: $h2;
+}
+
+h3 {
+  font-size: $h3;
+}
+h4 {
+  font-size: $h4;
+}
+
+h5 {
+  font-size: $h5;
+}
+
+h6 {
+  font-size: $h6;
+}
+
+.ui-txt-info {
+  font-size: $h6;
+}
+
+.ui-txt-tip {
+  font-size: $h7;
+}
+
+.ui-color-tip {
+  color: $secondary-txt-color;
+}
+
+/* 强制覆盖全应用<a>的颜色 */
+a,
+.ui-link {
+  color: $primary-color;
+}
+
+// 被盖住的元素，用于作为拷贝元素存在，不可见
+.ui-cloak {
+  position: fixed;
+  z-index: -1;
+  bottom: -100px;
+}
+
+.ui-ellipsis {
+  @include ellipsis;
+  // hack flex box
+  min-height: 1px;
+}
+
+.ui-cursor {
+  cursor: pointer;
+}
+
+.ui-selected {
+  user-select: text;
+}
+
+.ui-noselect {
+  user-select: none;
+}

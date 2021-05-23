@@ -1,0 +1,60 @@
+@import "scss/variable.scss";
+
+.main {
+  padding: 40px 0 100px 0;
+  dl {
+    color: $regular-color;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 16px;
+    width: 470px;
+    dt {
+      margin-right: 5px;
+      color: $secondary-txt-color;
+    }
+  }
+  .info {
+    text-align: left;
+  }
+  .token {
+    color: $regular-color;
+  }
+  .editbutton {
+    margin: 25px auto 65px;
+  }
+
+  > .form {
+    width: 910px;
+    height: 64px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    font-size: 16px;
+    color: #667394;
+    input {
+      color: #00164e;
+      font-size: 16px;
+      background: none;
+      border: none;
+      &[type="password"] {
+        letter-spacing: 3px;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+    .item {
+      margin-left: 25px;
+      flex: 1;
+      label {
+        margin-right: 8px;
+      }
+    }
+    .btn {
+      width: 120px;
+      background-color: #dadce3;
+      height: 64px;
+      cursor: pointer;
+    }
+  }
+}

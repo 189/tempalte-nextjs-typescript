@@ -1,0 +1,21 @@
+.regbox {
+  background: url("/images/bg.png") no-repeat center center;
+  min-height: 600px;
+  background-size: cover;
+  height: calc(100vh - 80px - 74px);
+  .slogan {
+    width: 530px;
+    margin-right: 110px;
+    h1 {
+      margin-bottom: 80px;
+      h4 {
+        display: inline-block;
+        margin-left: 15px;
+      }
+    }
+    > h4 {
+      margin-top: 25px;
+      margin-bottom: 4px;
+    }
+  }
+}

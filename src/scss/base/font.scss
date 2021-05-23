@@ -1,0 +1,131 @@
+// gilroy font
+@font-face {
+  font-family: "gilroy-regular";
+  src: url("/fonts/gilroy/gilroy-regular.ttf");
+}
+
+@font-face {
+  font-family: "gilroy-medium";
+  src: url("/fonts/gilroy/gilroy-medium.ttf");
+}
+
+@font-face {
+  font-family: "gilroy-bold";
+  src: url("/fonts/gilroy/gilroy-bold.ttf");
+}
+
+// puhuiti font
+@font-face {
+  font-family: "puhui-regular";
+  src: url("/fonts/puhui/puhuiti-regular.ttf");
+}
+
+@font-face {
+  font-family: "puhui-medium";
+  src: url("/fonts/puhui/puhuiti-medium.ttf");
+}
+
+@font-face {
+  font-family: "puhui-bold";
+  src: url("/fonts/puhui/puhuiti-bold.ttf");
+}
+
+@font-face {
+  font-family: "puhui-heavy";
+  src: url("/fonts/puhui/puhuiti-heavy.ttf");
+}
+
+@font-face {
+  font-family: "puhui-light";
+  src: url("/fonts/puhui/puhuiti-light.ttf");
+}
+
+// ======= menlon font ========
+@font-face {
+  font-family: "menlo-regular";
+  src: url("/fonts/menlo/menlo-regular.ttf");
+}
+
+@font-face {
+  font-family: "menlo-bold";
+  src: url("/fonts/menlo/menlo-bold.ttf");
+}
+
+@font-face {
+  font-family: "menlo-bolditalic";
+  src: url("/fonts/menlo/menlo-bolditalic.ttf");
+}
+
+@font-face {
+  font-family: "menlo-italic";
+  src: url("/fonts/menlo/menlo-italic.ttf");
+}
+
+$fallback: Helvetica Neue, Helvetica, Hiragino Sans GB, PingFang SC, Microsoft YaHei, Arial, sans-serif-apple-system,
+  BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+
+// ======= menlon font class ========
+.ui-font-menlo-regular {
+  font-family: menlo-regular, $fallback;
+}
+
+.ui-font-menlo-bold {
+  font-family: menlo-bold, $fallback;
+}
+
+.ui-font-menlo-italic {
+  font-family: menlo-italic, $fallback;
+}
+
+.ui-font-menlo-bolditalic {
+  font-family: menlo-bolditalic, $fallback;
+}
+
+.ui-font-regular {
+  font-family: gilroy-regular, $fallback;
+}
+
+.ui-font-medium {
+  font-family: gilroy-medium, $fallback;
+}
+
+.ui-font-bold {
+  font-family: gilroy-bold, $fallback;
+}
+
+.ui-font-light {
+  font-family: gilroy-regular, $fallback;
+}
+
+.ui-font-heavy {
+  font-family: gilroy-bold, $fallback;
+}
+
+.ui-font-h4 {
+  font-size: $h4;
+}
+
+.ui-font-h1 {
+  font-size: $h1;
+}
+
+.ui-font-h2 {
+  font-size: $h2;
+}
+.ui-font-h3 {
+  font-size: $h3;
+}
+
+.ui-font-h4 {
+  font-size: $h4;
+}
+.ui-font-h5 {
+  font-size: $h5;
+}
+.ui-font-h6 {
+  font-size: $h6;
+}
+.ui-font-h7 {
+  font-size: $h7;
+}

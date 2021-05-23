@@ -1,0 +1,35 @@
+.formbox {
+  width: 440px;
+  padding: 40px;
+  height: 572px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.16);
+  opacity: 1;
+  border-radius: 4px;
+  position: relative;
+
+  .seat {
+    position: absolute;
+    bottom: -43px;
+    left: 0;
+  }
+
+  > section {
+    margin-top: 43px;
+  }
+
+  .remember {
+    margin-top: -12px;
+    margin-bottom: 40px;
+  }
+
+  .errorTip {
+    span {
+      margin-left: 5px;
+    }
+  }
+
+  h6 {
+    cursor: pointer;
+  }
+}
